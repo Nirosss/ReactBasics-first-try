@@ -1,0 +1,39 @@
+.header-main {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 500;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 45px  5px 45px;
+  height: 70px;
+   background: rgb(34, 193, 195);
+  background: linear-gradient(
+    270deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(56, 161, 110, 1) 100%
+  );
+  margin-bottom: 2rem;
+  .header-logo {
+    img {
+      height: 100%;
+    }
+  }
+  .header-links {
+    justify-content: space-between;
+    ul {
+      li {
+        cursor: pointer;
+      }
+      :hover {
+        text-decoration: underline;
+        scale: 1.03;
+      }
+      li:not(:last-child) {
+        padding-right: 20px;
+      }
+      a.active {
+        text-decoration: underline;
+      }
+    }
+  }
+}

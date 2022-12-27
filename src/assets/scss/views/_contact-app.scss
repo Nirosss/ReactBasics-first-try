@@ -1,0 +1,10 @@
+.contact-app{
+    width: min(100% - 45px, 1440px);
+    margin-inline: auto;
+    .filter-container{
+        button{
+            margin-left: 20px;
+            margin-top: 21px;
+        }
+    }
+}

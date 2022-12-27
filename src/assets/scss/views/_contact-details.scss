@@ -1,0 +1,41 @@
+.contact-details {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+  height: 50vh;
+  .user-image {
+    margin-top: 30px;
+    flex-basis: 40%;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    line-height: 2.25rem;
+    
+  }
+
+}
+
+.contact-details-container{
+  background: rgb(34,193,195);
+  background: linear-gradient(270deg, rgba(34,193,195,1) 0%, rgba(56,161,110,1) 100%);
+  box-shadow: 2px 2px 11px rgb(43 17 74 / 17%);
+  border-radius: 16px;
+  width: 60vw;
+  margin-inline: auto;
+
+  .actions{
+    padding-top: 16px;
+  }
+  .transfer-input{
+    flex-direction: column;
+  }
+}

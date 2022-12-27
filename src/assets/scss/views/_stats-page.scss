@@ -1,0 +1,21 @@
+.statistics{
+    width: min(100% - 45px, 1440px);
+    margin-inline: auto;
+
+   
+    .bitcoin{
+        h1{
+            padding-left: 15px;
+        }
+        height: 38vh;
+        background-color: $clr5;  
+        margin-bottom: 3rem;
+        border: 2px $clr4 solid;
+        .graph-dates{
+            display: flex;
+            justify-content: space-between;
+            margin-inline: 15px;
+        }
+    }
+
+}
