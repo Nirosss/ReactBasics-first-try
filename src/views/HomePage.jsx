@@ -33,7 +33,7 @@ export class HomePage extends Component {
     console.log(moves)
     return (
       <section className="home-page">
-        <section className='flex space-around'>
+        <section className='home-container flex space-around'>
         <section className="user-details">
           <section className="info">
             <section>
@@ -43,14 +43,14 @@ export class HomePage extends Component {
               <h3> Coins: {user.coins}</h3>
             </section>
             <section>
-              <h3> BTC: {this.state.rate} </h3>
+              <h3> BTC: {this.state.rate}</h3>
             </section>
           </section>
-        </section>
         </section>
         <section className="user-moves flex">
           <h2> Your Last Moves:</h2>
           <MoveList moves={moves}/>
+        </section>
         </section>
       </section>
     )

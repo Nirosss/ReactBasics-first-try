@@ -2,7 +2,6 @@
     color: white;
     font-size: 1.2rem;
     border-radius: 15px;
-    margin-inline: auto;
     padding: 15px;
     width: 250px;
     height: 25vh;
@@ -11,21 +10,45 @@
     margin-bottom: 25px;
     background: rgb(34,193,195);
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(56,161,110,1) 100%);
+    margin-left: 20px;
 
 }
 
-.card{
-    color: white;
-    font-size: 1.2rem;
-    border-radius: 15px;
+.user-signup{
+    width: min(100% - 25px, 300px);
     margin-inline: auto;
-    padding: 15px;
-    width: 250px;
-    height: 25vh;
-    border: solid $clr5 1px;
-    line-height: 3.5rem;
-    margin-bottom: 25px;
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(56,161,110,1) 100%);
-
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 15px;
+    margin-top: 75px;
+    img{
+     size: 80%;
+    }
+    button{
+        margin-left: 5px;
+    }
 }
+
+.home-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+// .card{
+//     color: white;
+//     font-size: 1.2rem;
+//     border-radius: 15px;
+    
+//     padding: 15px;
+//     width: 250px;
+//     height: 25vh;
+//     border: solid $clr5 1px;
+//     line-height: 3.5rem;
+//     margin-bottom: 25px;
+//     background: rgb(34,193,195);
+//     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(56,161,110,1) 100%);
+
+// }

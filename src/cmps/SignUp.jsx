@@ -47,7 +47,7 @@ export class SignUp extends Component {
     if (!user) return
     const { name } = user
     return (
-      <section className="user-edit">
+      <section className="user-signup">
         <form onSubmit={this.onSignup}>
           <label htmlFor="name">Name</label>
           <input
@@ -59,6 +59,7 @@ export class SignUp extends Component {
           />
           <button>Sign-up</button>
         </form>
+        <img src={require('../assets/images/wallet.png')} alt=""/>
       </section>
     )
   }
