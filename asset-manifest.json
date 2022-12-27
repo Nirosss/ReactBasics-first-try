@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ReactBasics_MisterBIT/static/css/main.ea674756.css",
+    "main.js": "/ReactBasics_MisterBIT/static/js/main.d66068a5.js",
+    "static/js/787.887c022c.chunk.js": "/ReactBasics_MisterBIT/static/js/787.887c022c.chunk.js",
+    "index.html": "/ReactBasics_MisterBIT/index.html",
+    "main.ea674756.css.map": "/ReactBasics_MisterBIT/static/css/main.ea674756.css.map",
+    "main.d66068a5.js.map": "/ReactBasics_MisterBIT/static/js/main.d66068a5.js.map",
+    "787.887c022c.chunk.js.map": "/ReactBasics_MisterBIT/static/js/787.887c022c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea674756.css",
+    "static/js/main.d66068a5.js"
+  ]
+}
