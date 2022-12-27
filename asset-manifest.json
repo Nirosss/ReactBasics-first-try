@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/ReactBasics_MisterBIT/static/css/main.ea674756.css",
-    "main.js": "/ReactBasics_MisterBIT/static/js/main.d66068a5.js",
+    "main.css": "/ReactBasics_MisterBIT/static/css/main.3ca30c86.css",
+    "main.js": "/ReactBasics_MisterBIT/static/js/main.16158e6d.js",
     "static/js/787.887c022c.chunk.js": "/ReactBasics_MisterBIT/static/js/787.887c022c.chunk.js",
+    "static/media/wallet.png": "/ReactBasics_MisterBIT/static/media/wallet.9f8db05960158c862f1f.png",
     "index.html": "/ReactBasics_MisterBIT/index.html",
-    "main.ea674756.css.map": "/ReactBasics_MisterBIT/static/css/main.ea674756.css.map",
-    "main.d66068a5.js.map": "/ReactBasics_MisterBIT/static/js/main.d66068a5.js.map",
+    "main.3ca30c86.css.map": "/ReactBasics_MisterBIT/static/css/main.3ca30c86.css.map",
+    "main.16158e6d.js.map": "/ReactBasics_MisterBIT/static/js/main.16158e6d.js.map",
     "787.887c022c.chunk.js.map": "/ReactBasics_MisterBIT/static/js/787.887c022c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea674756.css",
-    "static/js/main.d66068a5.js"
+    "static/css/main.3ca30c86.css",
+    "static/js/main.16158e6d.js"
   ]
 }
